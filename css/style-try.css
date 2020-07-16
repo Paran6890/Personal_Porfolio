@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a,a:hover,a:focus{
+    text-decoration: none;
+}
+
+ol,ul{
+    list-style: none;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+body{
+font-family: 'Playfair Display', serif;
+color: #626262;
+}
+/* header-part start */
+
+header{
+    padding: 20px;
+}
+.logo{
+    width: 15%;
+    float: left;
+}
+
+.menu{
+    width: 85%;
+    float: left;
+    text-align: right;
+   
+}
+
+.menu ul{}
+
+.menu ul li{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.menu ul li a{
+    position: relative;
+    padding-top: 15px;
+    display: inline-block;
+    color: #626262;
+    text-transform: uppercase;
+    transition: .4s;
+}
+.menu ul li a::after{
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 1px;
+    background: #626262;
+    content: "";
+    transition: .4s;
+}
+
+.menu ul li a:hover::after{
+    width: 100%;
+}
+
+/* heder-part end */
+/* banner-part start */
+#banner .img img{
+width: 100%;
+}
+/* banner-part end */
+
+
+
+
